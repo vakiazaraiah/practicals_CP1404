@@ -16,5 +16,5 @@ which should be... 59."""
 out_file = open('numbers.txt', 'r')
 number_1 = int(out_file.readline())
 number_2 = int(out_file.readline())
-print(number_1 + number_2)
+print(number_2, number_1)
 out_file.close()

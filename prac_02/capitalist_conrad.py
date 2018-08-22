@@ -17,7 +17,6 @@ INITIAL_PRICE = 10.0
 OUTPUT_FILE = 'capital_conrad.txt'
 
 out_file = open(OUTPUT_FILE, 'w')
-
 price = INITIAL_PRICE
 day_count = 0
 print("Starting price: ${:,.2f}".format(price), file=out_file)

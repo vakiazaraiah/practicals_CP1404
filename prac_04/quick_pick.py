@@ -21,10 +21,10 @@ def main():
                 number = random.randint(MINIMUM, MAXIMUM)
             quick_picks.append(number)
         quick_picks.sort()
-        # the following uses a generator expression (like a list comprehension)
-        # to format each number in quick_picks in the same way
-        # this is then turned into a single string with the join method
         print(" ".join("{:3}".format(number) for number in quick_picks))
 
 
 main()
+# the following uses a generator expression (like a list comprehension)
+        # to format each number in quick_picks in the same way
+        # this is then turned into a single string with the join method

@@ -5,12 +5,16 @@ import math
 
 def main():
 
+    numbers = check_numbers()
+    print_report(numbers)
+
+
+def check_numbers():
     numbers = []
     for number in range(1, 5 + 1):
         number_entered = int(input("Number: "))
         numbers.append(number_entered)
-
-    print_report(numbers)
+    return numbers
 
 
 def print_report(numbers):

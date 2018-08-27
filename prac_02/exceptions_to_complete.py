@@ -15,4 +15,17 @@ while not finished:
         finished = True
     except ValueError:  # TODO - add something after except
         print("Please enter a valid integer.")
+
 print("Valid result is:", result)
+
+# try:
+#     numerator = int(input("Enter the numerator: "))
+#     denominator = int(input("Enter the denominator: "))
+#     if numerator == 0 or denominator == 0:
+#         print("Numerator and denominator must be valid numbers!")
+#     else:
+#         fraction = numerator / denominator
+#         print(fraction)
+# except ValueError:
+#     print("Numerator and denominator must be valid numbers!")
+# print("Finished.")

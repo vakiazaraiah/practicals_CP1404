@@ -21,7 +21,7 @@ def main():
                 number = random.randint(MINIMUM, MAXIMUM)
             quick_picks.append(number)
         quick_picks.sort()
-        print(" ".join("{:3}".format(number) for number in quick_picks))
+        print(",".join("{:3}".format(number) for number in quick_picks))
 
 
 main()

@@ -11,6 +11,7 @@ COLORS = {"AliceBlue": "#fof8ff", "AntiqueWhite": "#faebd7", "AntiqueWhite1": "#
 color_name = input("Please enter the name of the color// ")
 while color_name != "":
     if color_name in COLORS.keys():
+
         color_code = COLORS[color_name]
         print(color_code)
     else:
